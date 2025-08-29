@@ -11,5 +11,5 @@ jobs:
             uses: actions/checkout@v4
 
           - name: Print Hello World file
-            run: echo "${cat hello_world.txt}"
+            run: cat hello_world.txt
             
